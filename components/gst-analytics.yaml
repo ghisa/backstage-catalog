@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gst-analytics
+  # This is an extra long description
+  description: The tag service which holds all the tag info
+  links:
+    - url: https://gitlab.com/lifestyle-product/gst-analytics-service
+      title: Gitlab Repo
+      icon: gitlab
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=gst-analytics'
+spec:
+  type: service
+  lifecycle: production
+  owner: radu
+  providesApis:
+    - gst-analytics
