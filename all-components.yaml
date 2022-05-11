@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: sylon-components
+  description: A collection of all Backstage sylon components
+spec:
+  targets:
+    - ./components/guided-pathway.yaml
+    - ./components/idea-capture.yaml
+    - ./components/comment-service.yaml
+    - ./components/composite-service.yaml
+    - ./components/content-service.yaml
+    - ./components/email-service.yaml
+    - ./components/file-upload-service.yaml
+    - ./components/ideas-service.yaml
+    - ./components/tag-service.yaml
+    - ./components/tasks-service.yaml
+    - ./components/user-management-service.yaml

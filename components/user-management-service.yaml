@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: user-management-service
+  # This is an extra long description
+  description: Guidedpathway
+  links:
+    - url: https://gitlab.tooling.shipyardtech.com/sylon/platform/user-management-service
+      title: Gitlab Repo
+      icon: gitlab
+  annotations:
+    jenkins.io/job-full-name: gitlab-org-scan/sylon%2Fplatform%2Fuser-management-service
+    gitlab.com/project-id: '4695'
+    sonarqube.org/project-key: io.sylon.platform:user-management-service
+    newrelic.com/dashboard-guid: MjQ3NTYyMnxWSVp8REFTSEJPQVJEfGRhOjgwNTE2OA
+    'backstage.io/kubernetes-label-selector': 'app=user-management-service'
+spec:
+  type: service
+  lifecycle: production
+  owner: sylon
+  providesApis:
+    - user-management-service

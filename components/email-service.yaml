@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: email-service
+  # This is an extra long description
+  description: A service that talks to sendgrid to send emails
+  links:
+    - url: https://gitlab.tooling.shipyardtech.com/sylon/platform/email-service
+      title: Gitlab Repo
+      icon: gitlab
+  annotations:
+    jenkins.io/job-full-name: gitlab-org-scan/sylon%2Fplatform%2Femail-service
+    gitlab.com/project-id: '4703'
+    sonarqube.org/project-key: io.sylon.platform:email-service
+    newrelic.com/dashboard-guid: MjQ3NTYyMnxWSVp8REFTSEJPQVJEfGRhOjgwNTE2OA
+    'backstage.io/kubernetes-label-selector': 'app=email-service'
+spec:
+  type: service
+  lifecycle: production
+  owner: sylon
+  providesApis:
+    - email-service

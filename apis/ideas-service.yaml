@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ideas-service
+  description: Ideas service api
+spec:
+  type: openapi
+  lifecycle: production
+  owner: sylon
+  definition:
+    $text: https://gitlab.tooling.shipyardtech.com/sylon/platform/ideas-service/-/blob/master/api/src/main/resources/swagger/api.yaml

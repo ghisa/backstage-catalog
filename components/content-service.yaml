@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: content-service
+  # This is an extra long description
+  description: A content service that provides JSON content for different things like FAQs
+  links:
+    - url: https://gitlab.tooling.shipyardtech.com/sylon/platform/content-service
+      title: Gitlab Repo
+      icon: gitlab
+  annotations:
+    jenkins.io/job-full-name: gitlab-org-scan/sylon%2Fplatform%2Fcontent-service
+    gitlab.com/project-id: '4766'
+    sonarqube.org/project-key: io.sylon.platform:content-service
+    newrelic.com/dashboard-guid: MjQ3NTYyMnxWSVp8REFTSEJPQVJEfGRhOjgwNTE2OA
+    'backstage.io/kubernetes-label-selector': 'app=content-service'
+    grafana/tag-selector: 'jvm-metrics'
+spec:
+  type: service
+  lifecycle: production
+  owner: sylon
+  providesApis:
+    - content-service

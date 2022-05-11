@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: guided-pathway
+  # This is an extra long description
+  description: Guidedpathway is the main sylon web application
+  links:
+    - url: https://gitlab.tooling.shipyardtech.com/sylon/platform/guided-pathway
+      title: Gitlab Repo
+      icon: github
+  annotations:
+    jenkins.io/job-full-name: gitlab-org-scan/sylon%2Fplatform%2Fguided-pathway
+    gitlab.com/project-id: '4742'
+    sonarqube.org/project-key: guided-pathway
+    'backstage.io/kubernetes-label-selector': 'app=guided-pathway-ui'
+    lighthouse.com/website-url: https://skynet.test.sylon.io
+spec:
+  type: website
+  lifecycle: production
+  owner: sylon
+  consumesApis:
+    - composite-service

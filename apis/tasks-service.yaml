@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tasks-service
+  description: Tasks service api
+spec:
+  type: openapi
+  lifecycle: production
+  owner: sylon
+  definition:
+    $text: https://gitlab.tooling.shipyardtech.com/sylon/platform/tasks-service/-/blob/master/api/src/main/resources/swagger/api.yaml
