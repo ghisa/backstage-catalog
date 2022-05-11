@@ -5,12 +5,4 @@ metadata:
   description: A collection of all Backstage example APIs
 spec:
   targets:
-    - ./apis/comment-service.yaml
     - ./apis/composite-service.yaml
-    - ./apis/content-service.yaml
-    - ./apis/email-service.yaml
-    - ./apis/file-upload-service.yaml
-    - ./apis/ideas-service.yaml
-    - ./apis/tag-service.yaml
-    - ./apis/tasks-service.yaml
-    - ./apis/user-management-service.yaml
