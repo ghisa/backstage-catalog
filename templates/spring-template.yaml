@@ -70,7 +70,7 @@ spec:
       name: Publish
       action: publish:gitlab
       input:
-        allowedHosts: ["gitlab.tooling.shipyardtech.com"]
+        allowedHosts: ["gitlab.tooling.shipyardtech.com", "https://gitlab.com/lifestyle-product"]
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
 

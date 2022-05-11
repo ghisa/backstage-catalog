@@ -6,6 +6,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: sylon
+  owner: radu
   definition:
-    $text: https://gitlab.tooling.shipyardtech.com/sylon/platform/composite-service/-/blob/master/api/src/main/resources/swagger/api.yaml
+    $text: https://api.test.lifestyle.shipyardlabs.io/swagger-ui/index.html
