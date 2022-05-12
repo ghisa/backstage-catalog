@@ -9,8 +9,8 @@ metadata:
       title: Gitlab Repo
       icon: gitlab
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app=gst-composite'
-    'gitlab.com/project-id': '16301233'
+    backstage.io/kubernetes-label-selector: 'app=gst-composite'
+    gitlab.com/project-id: '16301233'
 spec:
   type: service
   lifecycle: production
