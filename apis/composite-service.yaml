@@ -7,5 +7,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: radu
-  definition:
-    $text: https://api.test.lifestyle.shipyardlabs.io/swagger-ui/index.html
+#   definition:
+#     $text: https://api.test.lifestyle.shipyardlabs.io/swagger-ui/index.html
