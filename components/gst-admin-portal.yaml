@@ -8,12 +8,12 @@ metadata:
     - url: https://gitlab.com/lifestyle-product/gst-admin-portal
       title: Gitlab Repo
       icon: gitlab
-  annotations:
-    jenkins.io/job-full-name: gitlab-org-scan/sylon%2Fplatform%2Ftag-service
-    gitlab.com/project-id: '4720'
-    sonarqube.org/project-key: io.sylon.platform:tag-service
-    newrelic.com/dashboard-guid: MjQ3NTYyMnxWSVp8REFTSEJPQVJEfGRhOjgwNTE2OA
-    'backstage.io/kubernetes-label-selector': 'app=gst-admin-portal'
+#   annotations:
+#     jenkins.io/job-full-name: gitlab-org-scan/sylon%2Fplatform%2Ftag-service
+#     gitlab.com/project-id: '4720'
+#     sonarqube.org/project-key: io.sylon.platform:tag-service
+#     newrelic.com/dashboard-guid: MjQ3NTYyMnxWSVp8REFTSEJPQVJEfGRhOjgwNTE2OA
+#     'backstage.io/kubernetes-label-selector': 'app=gst-admin-portal'
 spec:
   type: service
   lifecycle: production
